@@ -1,0 +1,25 @@
+{
+  "name": "Sample-Site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elib0y/Sample-Site.git"
+  },
+  "keywords": [],
+  "author": "Eliseo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elib0y/Sample-Site/issues"
+  },
+  "homepage": "https://github.com/elib0y/Sample-Site#readme",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "lodash": "^4.17.10",
+    "normalize.css": "^8.0.0"
+  }
+}
