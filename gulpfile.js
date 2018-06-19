@@ -16,9 +16,9 @@ gulp.task('html', function() {
 	console.log("Imagine something useful being done here");
 });
 gulp.task('styles', function() {
-	 return gulp.src('./app/assets/styles/style.css')
+	 return gulp.src('./app/assets/styles/styles.css')
 	      .pipe(postcss([cssImport, cssvars, nested, autoprefixer]))
-		  .pipe(gulp.dest('./app/temp.styles'));
+		  .pipe(gulp.dest('./app/temp/styles'));
 });
 
 gulp.task('watch', function() {
@@ -29,12 +29,12 @@ gulp.task('watch', function() {
 			baseDir: "app"
 		}
 	});
-	
+	 
 	watch('./app/index.html', function() {
 		browserSync.reload();
 		
 	});
-watch('./app/assets/styles/**/*.css', function() {
+watch('./app/assets/styles/**/*.css', function() { 
 	 gulp.start('cssInject');
 	
      });

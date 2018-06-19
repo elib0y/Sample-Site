@@ -368,14 +368,14 @@ img {
 .large-hero__title{
 		font-weight: 300;
 		color: #2f5572;
-		font-size: 5.8rem; 
+		font-size: 5.8rem;  
 	    margin: 0;
 	}
 
 .large-hero__subtitle{ 
-		font-weight: 300;
-		color: #2f5572;   
-		font-size: 2.9rem;
+		font-weight: 300; 
+		color: #2f5572;    
+		font-size: 5.8rem;
 		margin: 0; 	 
 	}
 
@@ -407,4 +407,4 @@ img {
 	}
 
 
- 
+  
