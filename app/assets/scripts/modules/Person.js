@@ -7,4 +7,4 @@ function Person(fullName, favColor) {
 	
 }
 
-module.exports = Person;
+module.exports = Person; 
