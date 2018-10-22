@@ -6,10 +6,10 @@
 	display: inline-block;
 	
 	
-	&__orange{
+	&--orange{
 		background-color: $mainOrange;
 	}
-	&__large{
+	&--large{
 		  padding: 1.1rem 1.9rem;
 		
 		@mixin atSmall{

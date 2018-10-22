@@ -551,17 +551,17 @@ a {
 	display: inline-block;
 }
 
-.btn__orange{
+.btn--orange{
 		background-color: #d59541;
 	}
 
-.btn__large{
+.btn--large{
 		  padding: 1.1rem 1.9rem;
 	}
 
 @media (min-width: 530px) {
 
-.btn__large{
+.btn--large{
 			font-size: 1.2rem
 	}
 	}
