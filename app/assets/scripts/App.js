@@ -1,4 +1,4 @@
-var $ = require("jquery");
+var $ = require('jquery');
 var Person = require('./modules/Person');
 
 
@@ -9,6 +9,6 @@ john.greet();
 var jane = new Person("Jane Doe", "Green");
 
 jane.greet();
-
-
     
+ 
+       
