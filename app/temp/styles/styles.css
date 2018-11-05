@@ -1237,7 +1237,7 @@ Instead edit gulp/templates/sprite*/
 .site-header__menu-icon--close-x::before {
 			-webkit-transform: rotate(45deg) scaleX(1.25);
 			        transform: rotate(45deg) scaleX(1.25);
-		}
+		 }
 
 .site-header__menu-icon--close-x .site-header__menu-icon__middle{
 			opacity: 0;
@@ -1248,7 +1248,7 @@ Instead edit gulp/templates/sprite*/
 .site-header__menu-icon--close-x::after {
 		   -webkit-transform: rotate(-45deg) scaleX(1.25) translateY(1px);
 		           transform: rotate(-45deg) scaleX(1.25) translateY(1px);
-		}
+		  }
 
 .site-header__menu-content {
 	      opacity: 0;
@@ -1355,7 +1355,7 @@ Instead edit gulp/templates/sprite*/
 			background-color: transparent
 	}
 			
-			.primary-nav a.is-current-link{
+			.primary-nav a.is-current-link{ 
 				color: #fabb69;
 			}
 	}
