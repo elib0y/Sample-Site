@@ -7,7 +7,7 @@ class MobileMenu {
 	  this.menuContent = $(".site-header__menu-content");	
 	  this.events();	
 	}
-	events() {
+	events() { 
 		this.menuIcon.click(this.toggleMenu.bind(this));
 	
 	}
