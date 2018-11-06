@@ -11,9 +11,9 @@ class StickyHeader{
 		this.pageSections = $(".page-section");
 		this.headerLinks = $(".primary-nav a");
 		this.createPageSectionWaypoints();
-		this.addSmoothScrolling();
-	}
-	
+		this.addSmoothScrolling(); 
+	} 
+	 
 	addSmoothScrolling() {
 		this.headerLinks.smoothScroll();
 	}
@@ -27,7 +27,7 @@ class StickyHeader{
 				}else {
 					that.siteHeader.removeClass("site-header--dark");
 				}
-			} 
+			}  
 		});
 	}
 	createPageSectionWaypoints() {
