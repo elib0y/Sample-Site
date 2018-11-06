@@ -18,11 +18,7 @@
   },
   "homepage": "https://github.com/elib0y/Sample-Site#readme",
   "dependencies": {
-<<<<<<< HEAD
-    "jquery": "^3.2.1",
-=======
     "jquery": "^3.3.1",
->>>>>>> sticky-header
     "jquery-smooth-scroll": "^2.2.0",
     "lazysizes": "4.0.1",
     "normalize.css": "7.0.0"
