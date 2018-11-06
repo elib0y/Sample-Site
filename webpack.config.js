@@ -7,7 +7,7 @@ entry: "./app/assets/scripts/App.js",
 	 filename: "App.js"
    },
 	module: {
-          rules: [
+          rules: [ 
 			{
             loader: 'babel-loader',
 	        query:  {
