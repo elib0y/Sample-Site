@@ -4,7 +4,7 @@ import waypoints from '../../../../waypoints/lib/noframework.waypoints';
 class RevealOnScroll {
 	constructor(els, offset) {
 		this.itemsToReveal = els; 
-		this.offsetPercentage = offset;  
+		this.offsetPercentage = offset;   
 		this.hideInitially(); 
 		this.createWaypoints(); 
 	}
