@@ -5,7 +5,7 @@ import waypoints from '../../../../node_modules/waypoints/lib/noframework.waypoi
 class StickyHeader{
 	constructor() {
 		this.siteHeader = $(".site-header");
-		this.TriggerElement = $(".large-hero__title");
+		this.TriggerElement = $(".large-hero__title"); 
 		this.createHeaderWaypoints();
 		this.pageSections = $(".page-section");
 		this.headerLinks = $(".primary-nav a");
@@ -13,8 +13,9 @@ class StickyHeader{
 	}
 	createHeaderWaypoints() {
 		var that = this;
+		
 		new Waypoint({
-		    element: this.TriggerElement[0], 	
+		    element: this.TriggerElement[0],	
 		    handler: function(direction){
 				if(direction == "down"){
 					that.siteHeader.addClass("site-header--dark");
