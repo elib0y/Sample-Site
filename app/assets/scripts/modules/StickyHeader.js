@@ -2,12 +2,12 @@ import $ from 'jquery';
 import waypoints from '../../../../node_modules/waypoints/lib/noframework.waypoints';
 import smoothScroll from 'jquery-smooth-scroll';
 
-
+   
 class StickyHeader{
 	constructor() {
 		this.siteHeader = $(".site-header");
 		this.TriggerElement = $(".large-hero__title"); 
-		this.createHeaderWaypoints();
+		this.createHeaderWaypoints(); 
 		this.pageSections = $(".page-section");
 		this.headerLinks = $(".primary-nav a");
 		this.createPageSectionWaypoints();
